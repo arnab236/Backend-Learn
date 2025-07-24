@@ -2,9 +2,10 @@
   "name": "backend-pro",
   "version": "1.0.0",
   "description": "a backend project pro1",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javasript",
@@ -12,5 +13,8 @@
     "chai"
   ],
   "author": "Arnab Sarkar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
